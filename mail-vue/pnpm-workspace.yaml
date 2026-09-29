@@ -1,0 +1,16 @@
+packages:
+  - '.'
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - sharp
+  - vue-demi
+  - workerd
+
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  sharp: true
+  vue-demi: true
+  workerd: true
